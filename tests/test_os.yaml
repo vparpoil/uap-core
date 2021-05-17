@@ -11,7 +11,7 @@ test_cases:
     family: 'WatchOS'
     major: '5'
     minor: '2'
-    patch: 
+    patch:
     patch_minor:
 
   - user_agent_string: '(null)/(null) watchOS/5.1.1 model/Watch3,3 hwp/t8004 build/16R600 (6; dt:155)'
@@ -139,19 +139,33 @@ test_cases:
     minor: '4'
     patch: '2'
     patch_minor:
-  
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; motorola one power) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Mobile Safari/537.36'
     family: 'Android'
     major: '9'
-    minor: 
-    patch: 
+    minor:
+    patch:
     patch_minor:
-  
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; SM-G970F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3396.81 Mobile Safari/537.36'
     family: 'Android'
     major: '10'
-    minor: 
-    patch: 
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel 2 XL Build/PPP5.180610.010; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.85 Mobile Safari/537.36'
+    family: 'Android'
+    major: '9'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9.1.2; Pixel 2 XL Build/PPP5.180610.010; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.85 Mobile Safari/537.36'
+    family: 'Android'
+    major: '9'
+    minor: '1'
+    patch: '2'
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XXJEE; U; Bada/1.0; nl-nl) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B'
@@ -2180,6 +2194,160 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'App/1.0.0 CFNetwork/976 Darwin/18.2.0'
+    family: 'iOS'
+    major: '12'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/978.0.7 Darwin/18.5.0'
+    family: 'iOS'
+    major: '12'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/978.0.7 Darwin/18.6.0'
+    family: 'iOS'
+    major: '12'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/978.0.7 Darwin/18.7.0'
+    family: 'iOS'
+    major: '12'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1107.1 Darwin/19.0.0'
+    family: 'iOS'
+    major: '13'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1098.7 Darwin/19.0.0'
+    family: 'iOS'
+    major: '13'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1121.2.2 Darwin/19.2.0'
+    family: 'iOS'
+    major: '13'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1121.2.2 Darwin/19.3.0'
+    family: 'iOS'
+    major: '13'
+    minor: '3'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1125.2 Darwin/19.4.0'
+    family: 'iOS'
+    major: '13'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1126 Darwin/19.5.0'
+    family: 'iOS'
+    major: '13'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1128.0.1 Darwin/19.6.0'
+    family: 'iOS'
+    major: '13'
+    minor: '6'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1197 Darwin/20.0.0'
+    family: 'iOS'
+    major: '14'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1179.0.1 Darwin/20.0.0'
+    family: 'iOS'
+    major: '14'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1200.1 Darwin/20.1.0'
+    family: 'iOS'
+    major: '14'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1209 Darwin/20.2.0'
+    family: 'iOS'
+    major: '14'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1220.1 Darwin/20.3.0'
+    family: 'iOS'
+    major: '14'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1237 Darwin/20.4.0'
+    family: 'iOS'
+    major: '14'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1206 Darwin/20.1.0'
+    family: 'iOS'
+    major: '14'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1209 Darwin/20.2.0'
+    family: 'iOS'
+    major: '14'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1220.1 Darwin/20.3.0'
+    family: 'iOS'
+    major: '14'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1236 Darwin/20.4.0'
+    family: 'iOS'
+    major: '14'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1233 Darwin/20.4.0'
+    family: 'iOS'
+    major: '14'
+    minor: '5'
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU 7_0_6 like Mac OS X; en_GB) AppleWebKit (KHTML, like Gecko) Mobile [OKMagazine/4.0.1 (iOS/7.0.6)] [LiteApps]'
     family: 'iOS'
     major: '7'
@@ -2440,6 +2608,13 @@ test_cases:
     patch: '1'
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU iPad OS 14_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+    family: 'iOS'
+    major: '14'
+    minor: '4'
+    patch: '1'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Tizen 2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1'
     family: 'Tizen'
     major: '2'
@@ -2635,7 +2810,6 @@ test_cases:
     minor: '2'
     patch:
     patch_minor:
-
 
   - user_agent_string: 'MyApp/1.0 CFNetwork/893.13.1 Darwin/17.3.0 (x86_64)'
     family: 'Mac OS X'
@@ -2895,3 +3069,25 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1904.1.1'
+    family: 'iOS'
+    major: '12'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Pandora/1904.1 Android/8.0.0 heroqlteusc (ExoPlayerLib1.5.14.1)'
+    family: 'Android'
+    major: '8'
+    minor: '0'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'Pandora Audio/1903.2 (Linux;Android 7.0) ExoPlayerLib/2.8.2'
+    family: 'Android'
+    major: '7'
+    minor: '0'
+    patch: 
+    patch_minor:
+
